@@ -33,7 +33,7 @@ const Feed = () => {
     return (
   feed && feed.length > 0 && (
     <div>
-      <FeedCard user={feed[0]} />
+      <FeedCard user={feed[1]} />
     </div>
   
 )

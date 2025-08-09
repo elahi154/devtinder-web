@@ -5,6 +5,7 @@ import axios from 'axios';
 import BASE_URL from '../../utils/constant'
 import { useDispatch } from 'react-redux';
 import { addUser } from '../../utils/userSlice';
+import Feed from './Feed';
 
 const Body = () => {
   const navigate = useNavigate();
